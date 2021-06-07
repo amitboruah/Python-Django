@@ -1,0 +1,21 @@
+<html>
+<head>
+
+</head>
+
+
+<body>
+    <form method='post' action='/formprocess'>
+    {% csrf_token %}
+    <h3>Enter Your Details</h3>
+    First Name: <input type='string' name='txt1' required /></br>
+    Last Name: <input type='string' name='txt2' required /></br>
+    Contact Number: <input type='Number' name='txt3' required /></br>
+    Email ID : <input type='Email' name='txt4' required /></br>
+    <input type="submit"/>
+
+    </form>
+</body>
+
+
+</html>
